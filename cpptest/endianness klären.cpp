@@ -47,9 +47,17 @@ inline std::string chek(unsigned char* data, unsigned int size) {
 //}
 
 int main() {
-	int a = 1;
+	unsigned short a = 256;
+	unsigned short b = 0b0000000100000000;
+	unsigned short c = 0x0100;
 
-	cout << chek((unsigned char*)&a, 4);
+	cout << chek((unsigned char*)&a, 2);
+	cout << endl;
+	cout << endl;
+	cout << chek((unsigned char*)&b, 2);
+	cout << endl;
+	cout << endl;
+	cout << chek((unsigned char*)&c, 2);
 
 	return 0;
 }
