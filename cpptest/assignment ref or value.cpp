@@ -30,6 +30,15 @@ vector<int> getVector() {
 
 	return vctr;
 }
+
+vector<string> getSTRVector() {
+	vector<string> vctr;
+
+	cout << &vctr << endl;
+
+	return vctr;
+}
+
 void acceptVector(vector<int> vctr) {
 	cout << &vctr << endl;
 }
@@ -49,8 +58,8 @@ vector<Human> getVectorHuman() {
 
 int main() {
 
-	Human h = getHuman();						// human passed by value (diffptr)
-	cout << &h << endl;
+	//Human h = getHuman();						// human passed by value (diffptr)
+	//cout << &h << endl;
 
 	/*string s = getSTR();						// string passed by ref (sameptr)
 	cout << &s << endl;*/
@@ -79,6 +88,9 @@ int main() {
 	cout << &str << endl;
 	str = getSTR();
 	cout << &str << endl;*/
+
+	/*vector<string> vc = getSTRVector();
+	cout << &vc << endl;*/
 
 	return 0;
 }
