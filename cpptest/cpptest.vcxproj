@@ -11,8 +11,18 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="assignment ref or value.cpp" />
+    <ClCompile Include="comparison.cpp" />
+    <ClCompile Include="decl vs def.cpp" />
+    <ClCompile Include="endianness klären.cpp" />
+    <ClCompile Include="function argument pass by ref.cpp" />
+    <ClCompile Include="function return pass by ref.cpp" />
+    <ClCompile Include="Human.cpp" />
     <ClCompile Include="linkage.cpp" />
     <ClCompile Include="linkage2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="decl vs def.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
